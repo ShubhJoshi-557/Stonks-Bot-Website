@@ -1,0 +1,123 @@
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(stonkz.jpg); background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.logo_main{
+    display: inline-flex;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+h1.top {
+    text-align: center;
+    padding-top: 18%;
+    margin: auto;
+    font-weight: 100;
+}
+
+body.main {
+    background-color:rgb(8, 0, 34); 
+    color: whitesmoke;
+}
+
+h1.second {
+    font-weight:400 ; 
+    padding-top: 3.5%;
+}
+
+h6.h6 {
+    font-weight:100 ;
+}
+
+p.n1 {
+    font-size: 20px;font-weight: 200;
+}
+
+hr.hr {
+    background-color: rgba(255, 255, 255, 0.377);
+}
+
+h5.h5-1 {
+    text-align: center; margin-bottom: 15px;font-weight: 200;
+}
+
+img.temp {
+    height: 50%;width: 40%; margin-bottom: 20px;
+}
+
+
+button {
+    margin: 20px;
+    outline: none;
+  }
+  .custom-btn {
+    color: white;
+    width: 130px;
+    height: 40px;
+    padding: 10px 25px;
+    border: 2px solid #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+  }
+
+  .btn-4 {
+    position: relative;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+    line-height: 40px;
+    padding: 0;
+  }
+  .btn-4:hover{
+    border: none;
+  }
+  .btn-4:before,
+  .btn-4:after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 0%;
+    border: 2px solid;
+    z-index: -1;
+    transition: all 0.3s ease;
+  }
+  .btn-4:before {
+    top: 0;
+     left: 0;
+     border-bottom-color: transparent;
+     border-right-color: transparent;
+     border-top-color: rgb(255, 255, 255);
+     border-left-color: rgb(255, 255, 255);
+  }
+  .btn-4:after{
+     bottom: 0;
+     right: 0;
+     border-top-color: transparent;
+     border-left-color: transparent;
+     border-bottom-color: rgb(255, 255, 255);
+     border-right-color: rgb(255, 255, 255);
+  }
+  .btn-4:hover:before,
+  .btn-4:hover:after {
+    border-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+  }
+
+.gg{
+    height: 100vh;
+}
+
+footer{
+    padding:25px ;
+    background-color: black;
+    height: 30vh;
+}
+  
