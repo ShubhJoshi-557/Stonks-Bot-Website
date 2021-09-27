@@ -3,6 +3,23 @@ header {
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
+    
+}
+.h_main{
+  overflow:hidden;
+  white-space:nowrap;
+  animation: showup 15s infinite;
+}
+.h_sec{
+  overflow:hidden;
+  white-space:nowrap;
+  animation: showup 30s infinite;
+}
+@keyframes showup {
+  0% {opacity:0;}
+  20% {opacity:1;}
+  80% {opacity:1;}
+  100% {opacity:0;}
 }
 
 .logo_main{
@@ -13,14 +30,16 @@ header {
 
 h1.top {
     text-align: center;
-    padding-top: 18%;
+    padding-top: 15%;
     margin: auto;
-    font-weight: 100;
+    font-weight:lighter;
+    font-size: 80px;
 }
 
 body.main {
     background-color:rgb(8, 0, 34); 
     color: whitesmoke;
+    font-family: 'Roboto';
 }
 
 h1.second {
@@ -33,7 +52,7 @@ h6.h6 {
 }
 
 p.n1 {
-    font-size: 20px;font-weight: 200;
+    font-size: 25px;font-weight: 200;
 }
 
 hr.hr {
